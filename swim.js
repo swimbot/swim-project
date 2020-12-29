@@ -11,7 +11,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
   _.igc = isGroupChat;
   _.re = replier;
   _.img = imageDB;
-  _pk = packageName;
+  _.pk = packageName;
   
   if(msg == cmd+"test"){
     swim.chat.test();
